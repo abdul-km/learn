@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(153, 226, 185);
+}
+
+ul li {
+    color: rgb(117, 77, 65);
+    font-size: 25pt;
+    margin-top: 20px;
+}
+
+ol li {
+    color: rgb(78, 75, 100);
+    font-size: 25pt;
+    margin-top: 20px;
+}
+
+.coffe {
+    color: teal;
+    font-size: 30pt;
+}
