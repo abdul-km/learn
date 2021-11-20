@@ -2,31 +2,45 @@
             background-color: #b3b7b8
         }
         
+        .tick {
+            padding-right: 20px;
+            padding-bottom: 15px;
+        }
+        
         .logo {
             border-radius: 50%;
         }
         
         .first-name-up {
             font-family: 'Poppins', sans-serif;
-            font-size: 10pt;
-            color: #d8ab31
+            font-size: 12pt;
+            color: #000000;
+            padding-left: 10px;
+            padding-right: 10px;
+            line-height: 18px;
         }
         
         .what {
             font-family: 'Poppins', sans-serif;
-            font-size: 4pt;
-            color: rgb(165, 44, 165)!important;
+            font-size: 8pt;
+            color: rgb(148, 138, 148);
         }
         
         .all {
             background-color: white;
             text-align: center;
+            padding: 10px;
         }
         
         .secand-name {
-            color: wheat;
+            color: #000000;
+            padding-left: 10px;
+            padding-right: 10px;
+            line-height: 18px;
         }
         
         .hide {
-            color: rgb(129, 54, 54)
+            font-family: 'Poppins', sans-serif;
+            font-size: 8pt;
+            color: rgb(148, 138, 148);
         }
