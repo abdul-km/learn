@@ -1,93 +1,49 @@
-        body {
-            background-color: #b3b7b8
-        }
-        
-        .one {
-            background-color: grey;
-        }
-        
-        .tick {
-            padding-right: 20px;
-            padding-bottom: 15px;
-        }
-        
-        .logo {
-            border-radius: 50%;
-        }
-        
-        .first-name-up {
-            font-family: 'Poppins', sans-serif;
-            font-size: 12pt;
-            color: #000000;
-            padding-left: 10px;
-            padding-right: 10px;
-            line-height: 18px;
-        }
-        
-        .what {
-            font-family: 'Poppins', sans-serif;
-            font-size: 8pt;
-            color: rgb(148, 138, 148);
-        }
-        
-        .all {
-            background-color: white;
-            text-align: lef;
-            padding: 10px;
-            border-radius: 3px;
-        }
-        
-        .secand-name {
-            color: #000000;
-            font-family: 'Poppins', sans-serif;
-            font-size: 12pt;
-            padding-left: 10px;
-            padding-right: 10px;
-            line-height: 18px;
-        }
-        
-        .hide {
-            font-family: 'Poppins', sans-serif;
-            font-size: 8pt;
-            color: rgb(148, 138, 148);
-        }
-        
-        .therd {
-            border-radius: 70px;
-            font-size: 10pt;
-            color: rgb(247, 189, 82);
-            font-family: 'Poppins', sans-serif;
-            background-color: rgb(253, 229, 184);
-            display: inline;
-            width: 100px;
-            height: 100px;
-            padding: 3px;
-            line-height: 45px;
-        }
-        
-        .email {
-            padding-left: 15px;
-            padding-right: 15px;
-            font-size: 12pt;
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        .new {
-            background-color: rgb(194, 194, 194);
-            text-align: center;
-            padding: 10px;
-            border-radius: 3px;
-        }
-        
-        .therd2 {
-            border-radius: 70px;
-            font-size: 10pt;
-            color: rgb(94, 177, 94);
-            font-family: 'Poppins', sans-serif;
-            background-color: rgb(201, 235, 201);
-            display: inline;
-            width: 100px;
-            height: 100px;
-            padding: 3px;
-            line-height: 45px;
-        }
+body {
+    background-color: #5c5848;
+}
+
+.container {
+    padding: 20px;
+}
+
+.main-div {
+    background-color: white;
+    width: 35%;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.div-title {
+    color: black;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
+    font-size: 13pt;
+    text-transform: capitalize;
+}
+
+.date-grids {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.date-div {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.date-title {
+    font-size: 11pt;
+}
+
+.date-div>p {
+    font-family: 'Poppins', sans-serif;
+    margin: 4px;
+}
+
+.custom {
+    margin-top: 15px;
+    padding: 14px 40px;
+    background-color: #5c5848;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
