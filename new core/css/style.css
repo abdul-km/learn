@@ -1,0 +1,33 @@
+body {
+    background-color: #dddddd;
+}
+
+div {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hedding {
+    font-size: 16pt;
+    text-align: center;
+    font-weight: 500;
+}
+
+li {
+    border: 1px solid #599bf0;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.faq>li>a {
+    font-size: 12pt;
+}
+
+.faq>li.uk-open>a {
+    color: #599bf0;
+}
+
+.faq>li.uk-open>div>p {
+    color: #8b8b8b;
+    font-size: 10pt;
+}
