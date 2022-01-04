@@ -1,19 +1,7 @@
+.image {
+    width: 90px;
+}
+
 div {
-    background-color: #e4e4e4;
-}
-
-.faq>li>a {
-    font-size: 12pt;
-}
-
-.faq>li.uk-open>a {
-    color: red;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.faq>li.uk-open>div>p {
-    color: black;
-    font-size: 10pt;
+    background-color: grey;
 }

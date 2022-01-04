@@ -31,3 +31,13 @@ li {
     color: #8b8b8b;
     font-size: 10pt;
 }
+
+.offer-badge {
+    background-color: red !important;
+    font-size: 10pt;
+    padding: 14px !important;
+}
+
+.uk-breadcrumb>li>a {
+    color: red !important;
+}
