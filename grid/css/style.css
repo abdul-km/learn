@@ -1,0 +1,19 @@
+.main-container {
+    height: 100vh;
+    background-color: #40404020;
+}
+
+.sidemenu {
+    background-color: white;
+    border-right: 1px solid #40404020;
+}
+
+.product-container {
+    background-color: white;
+}
+
+.sidenav>li {
+    padding: 10px 20px;
+    background-color: red;
+    margin-bottom: 2px;
+}
