@@ -1,31 +1,19 @@
-body {
-    font-size: 15pt;
-}
-
-.main-container {
+.products-container {
     height: 100vh;
-    background: rgb(230, 224, 224);
+    background-color: #40404010;
 }
 
-.nav>li {
-    padding: 10px 20px;
-    background-color: white;
-    margin-bottom: 2px;
-}
-
-.badge {
-    background-color: #35b34a;
-    font-size: 8pt;
-    font-weight: bold;
-}
-
-.card {
-    background-color: white;
-}
-
-.button {
-    background-color: yellow;
-    border-radius: 10px;
+.product-title {
     font-size: 10pt;
-    font-weight: bold;
+    text-align: left;
+    color: red;
+}
+
+.product-grid {
+    background-color: white;
+    border: 1px solid #40404010;
+}
+
+.p-img {
+    width: 50%;
 }
