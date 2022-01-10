@@ -1,19 +1,64 @@
-.products-container {
-    height: 100vh;
-    background-color: #40404010;
-}
-
-.product-title {
-    font-size: 10pt;
-    text-align: left;
-    color: red;
-}
-
-.product-grid {
-    background-color: white;
-    border: 1px solid #40404010;
-}
-
-.p-img {
-    width: 50%;
-}
+              .nav {
+                  font-size: 14pt;
+                  margin-top: 10px;
+                  margin-left: 6px;
+                  font-weight: 440;
+                  padding: 12px;
+              }
+              
+              .full {
+                  margin-top: 18px;
+                  margin-left: 18px;
+              }
+              
+              .products-container {
+                  height: 150vh;
+                  background-color: #40404010;
+              }
+              
+              .product-title {
+                  text-align: left;
+              }
+              
+              .product-grid {
+                  height: 100%;
+                  background-color: white;
+                  border: 1px solid #40404010;
+              }
+              
+              .badge {
+                  background-color: #51aa1b;
+                  border-radius: 3px;
+                  border: 1px solid #51aa1b;
+                  color: #fff;
+                  display: inline-block;
+                  font-size: 12px;
+                  font-weight: 500;
+                  left: 6px;
+                  line-height: 1;
+                  margin-top: 1px;
+                  padding: 3px 5px 2px;
+                  position: absolute;
+                  top: 6px;
+                  z-index: 1;
+              }
+              
+              .p-img {
+                  width: 50%;
+              }
+              
+              .gram {
+                  text-align: left;
+              }
+              
+              .button {
+                  background-color: yellow;
+                  color: black;
+                  border-radius: 20px;
+              }
+              
+              @media screen and (max-width: 580px) {
+                  #navbar {
+                      padding: 20px 10px !important;
+                  }
+              }
