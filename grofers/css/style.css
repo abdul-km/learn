@@ -28,3 +28,18 @@
     width: 640px;
     background-color: white !important;
 }
+
+.card-button {
+    background-color: #0c831f;
+    color: white;
+    border-radius: 18px;
+    margin-right: 6px;
+    margin-top: 12px;
+    font-size: 12pt;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.card {
+    margin-left: 12px;
+}
