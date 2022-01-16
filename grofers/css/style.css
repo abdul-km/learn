@@ -17,6 +17,11 @@
     font-size: 12pt;
     font-weight: 700;
     text-transform: capitalize !important;
+    color: black !important;
+}
+
+.parent {
+    color: black;
 }
 
 .del-add {
@@ -41,5 +46,9 @@
 }
 
 .card {
-    margin-left: 12px;
+    margin-left: 14px;
+}
+
+.s-main {
+    margin: 28px;
 }

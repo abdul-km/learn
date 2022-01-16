@@ -55,8 +55,9 @@
             </ul>
             <div class="uk-navbar-item">
                 <div class="uk-margin ">
-                    <form class="uk-search uk-search-default " style="width: 600px;">
+                    <form class="uk-search uk-search-default" style="width: 600px;">
                         <a href="" uk-search-icon></a>
+
                         <input class="uk-search-input search-btn" type="search" placeholder="Search">
                     </form>
                 </div>
@@ -68,8 +69,21 @@
         <div class="uk-navbar-right">
 
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#" class="del-sec">categories</a> </li>
-                <li class="uk-active"><a href="#" class="del-sec">login</a> </li>
+                <li class="uk-active uk-navbar-dropdown-nav"><a href="#" class="del-sec">categories</a>
+                </li>
+
+                <li>
+                    <a href="#" class="parent">Parent</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+
                 <div>
                     </li>
                     <li><button class="uk-button card-button">my cart</button>
@@ -77,20 +91,93 @@
                 </div>
             </ul>
     </nav>
-    <div uk-img>
+    <div>
         <img src="img/main.jpg" alt="Flowers in Chania" width="100%" height="100%">
-
+    </div>
+    <div>
+        <img src="img/center.png" alt="Flowers in Chania" width="100%" height="100%">
     </div>
     <div class="card">
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <img src="img/card-1.jpg" alt="Flowers in Chania" width="330" height="300">
-        <img src="img/card-2.jpg" alt="Flowers in Chania" width="330" height="300">
-        <img src="img/card-3.jpg" alt="Flowers in Chania" width="330" height="300">
-        <img src="img/card-4.png" alt="Flowers in Chania" width="330" height="300">
+        <img src="img/card-1.jpg" alt="Flowers in Chania" width="322" height="300">
+        <img src="img/card-2.jpg" alt="Flowers in Chania" width="322" height="300">
+        <img src="img/card-3.jpg" alt="Flowers in Chania" width="322" height="300">
+        <img src="img/card-4.png" alt="Flowers in Chania" width="322" height="300">
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     </div>
+    <div class="uk-container s-main">
+        <div class="uk-child-width-1-2@s uk-child-width-1-6@s uk-text-center uk-grid-column-collapse" uk-grid>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-1.png" alt="Flowers in Chania" width="800" height="1100">
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-2.png" alt="Flowers in Chania" width="100%" height="100%">
 
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-3.png" alt="Flowers in Chania" width="100%" height="100%">
+
+                </div>
+            </div>
+
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-4.png" alt="Flowers in Chania" width="100%" height="100%">
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-5.png" alt="Flowers in Chania" width="100%" height="100%">
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-6.png" alt="Flowers in Chania" width="100%" height="100%">
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-7.png" alt="Flowers in Chania" width="100%" height="100%">
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-8.png" alt="Flowers in Chania" width="100%" height="100%">
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-9.png" alt="Flowers in Chania" width="100%" height="100%">
+
+                </div>
+            </div>
+
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-10.png" alt="Flowers in Chania" width="100%" height="100%">
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-11.png" alt="Flowers in Chania" width="100%" height="100%">
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-body">
+                    <img src="img/s-card-12.png" alt="Flowers in Chania" width="100%" height="100%">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
 </body>
 
 </html>
