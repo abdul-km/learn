@@ -70,6 +70,11 @@ td.c-ctgry {
     font-size: 12pt;
     font-weight: 700;
     text-transform: capitalize !important;
+    color: black !important;
+}
+
+.parent {
+    color: black;
 }
 
 .del-add {
@@ -94,5 +99,29 @@ td.c-ctgry {
 }
 
 .card {
-    margin-left: 12px;
+    margin-left: 14px;
+}
+
+.s-main {
+    grid-gap: 10px
+}
+
+.all-grid {
+    margin-bottom: 0px;
+}
+
+.surfexcel {
+    margin-top: 26px;
+}
+
+.surf {
+    color: #787575;
+    margin-top: 8px;
+    font-size: 8pt;
+    font-weight: bold;
+    text-emphasis: collapse;
+}
+
+.m-card {
+    margin-left: 26px;
 }
