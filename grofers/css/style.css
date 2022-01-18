@@ -50,5 +50,25 @@
 }
 
 .s-main {
-    margin: 28px;
+    grid-gap: 10px
+}
+
+.all-grid {
+    margin-bottom: 0px;
+}
+
+.surfexcel {
+    margin-top: 26px;
+}
+
+.surf {
+    color: #787575;
+    margin-top: 8px;
+    font-size: 8pt;
+    font-weight: bold;
+    text-emphasis: collapse;
+}
+
+.m-card {
+    margin-left: 26px;
 }
