@@ -57,7 +57,24 @@
                 <div class="uk-margin ">
                     <form class="uk-search uk-search-default " style="width: 600px;">
                         <a href="" uk-search-icon></a>
-                        <input class="uk-search-input search-btn" type="search" placeholder="Search">
+                        <input class="uk-search-input search-input" type="search" placeholder="Search">
+                        <div uk-drop="mode: click" class="uk-margin-remove">
+                            <div class="uk-card uk-card-body search-drop ">
+                                <p class="search-heading">Trending</p>
+                                <table class="uk-table uk-table-small uk-margin-remove  search-table">
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="c-img">
+                                                <img src="img/amul.png" alt="">
+                                            </td>
+                                            <td class="c-name">atta in</td>
+                                            <td class="c-ctgry">atta & other flours</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </form>
                 </div>
 
@@ -72,7 +89,7 @@
                 <li class="uk-active"><a href="#" class="del-sec">login</a> </li>
                 <div>
                     </li>
-                    <li><button class="uk-button card-button">my cart</button>
+                    <li><button class="uk-button card-button ">My cart</button>
                     </li>
                 </div>
             </ul>
@@ -90,7 +107,23 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     </div>
-
+    <div class="uk-child-width-1-2@s uk-child-width-1-6@m uk-text-center" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </div>
+    </div>
 </body>
 
 </html>
