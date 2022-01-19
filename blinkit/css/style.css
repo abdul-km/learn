@@ -1,0 +1,74 @@
+.topnav {
+    background-color: #ffe141 !important;
+}
+
+.uk-navbar-item,
+.uk-navbar-nav>li>a,
+.uk-navbar-toggle {
+    min-height: 64px;
+}
+
+.top-logo {
+    width: 92px;
+    margin-left: 20px;
+}
+
+.del-sec {
+    font-size: 12pt;
+    font-weight: 700;
+    text-transform: capitalize !important;
+    color: black !important;
+}
+
+.parent {
+    color: black;
+}
+
+.del-add {
+    margin: 0px;
+    font-size: 8pt;
+}
+
+.search-btn {
+    width: 640px;
+    background-color: white !important;
+}
+
+.card-button {
+    background-color: #0c831f;
+    color: white;
+    border-radius: 18px;
+    margin-right: 6px;
+    margin-top: 12px;
+    font-size: 12pt;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.card {
+    margin-left: 14px;
+}
+
+.s-main {
+    grid-gap: 10px
+}
+
+.all-grid {
+    margin-bottom: 0px;
+}
+
+.surfexcel {
+    margin-top: 26px;
+}
+
+.surf {
+    color: #787575;
+    margin-top: 8px;
+    font-size: 8pt;
+    font-weight: bold;
+    text-emphasis: collapse;
+}
+
+.m-card {
+    margin-left: 26px;
+}
