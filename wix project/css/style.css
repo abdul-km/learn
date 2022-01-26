@@ -4,46 +4,46 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav {
-    background-color: yellow;
+.uk-navbar-item,
+.uk-navbar-nav>li>a,
+.uk-navbar-toggle {
+    min-height: 71px;
 }
 
-.main-nav {
-    background-color: white;
-    color: white;
+.navbar {
+    background-color: white !important;
+    border: 1px solid red;
 }
 
-.name {
+.header-logo {
+    width: 71px;
+}
+
+.navbar>div>ul>li>a {
+    text-transform: capitalize;
     color: black;
-    padding: 6px;
+    font-size: 11pt;
+    padding: 0px 18px;
 }
 
-.name1 {
-    color: black;
-    padding: 6px;
-    margin-right: 408px;
+.blue-container {
+    background-color: #116DFF;
 }
 
-.vl {
-    border-left: 1px solid black;
-    height: 50px;
+.feature {
+    background: none;
 }
 
-.gol {
-    background-color: white;
+.navbar>div>ul>li:hover>a {
+    color: rgb(44, 184, 240);
 }
 
-.login {
-    border: 1px solid blue;
-    border-radius: 20px;
-    background-color: white;
-    color: blue;
-    margin: 4px;
+.navbar>div>ul>li>a>span {
+    margin-left: 10px;
 }
 
-.heading {
-    background-color: #dedcd5;
-    padding: 8px;
+.navbar>div>ul>li:hover>a>span {
+    transform: rotate(180deg);
 }
 
 .h1 {
