@@ -115,8 +115,9 @@ body {
     color: white;
     border-radius: 36px;
     font-size: 16pt !important;
-    font-weight: 500;
-    padding: 14px 38px;
+    padding: 12px 40px;
+    text-transform: capitalize;
+    font-weight: 400;
 }
 
 .badg {
@@ -168,6 +169,7 @@ body {
     text-align: left;
     border-bottom: 2px solid white;
     width: 125px;
+    text-transform: capitalize;
 }
 
 .green-grid {
