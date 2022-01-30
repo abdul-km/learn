@@ -12,7 +12,6 @@ body {
 
 .navbar {
     background-color: white !important;
-    border: 1px solid red;
 }
 
 .header-logo {
@@ -24,10 +23,6 @@ body {
     color: black;
     font-size: 11pt;
     padding: 0px 18px;
-}
-
-.blue-container {
-    background-color: rgb(20, 52, 142);
 }
 
 .feature {
@@ -46,23 +41,47 @@ body {
     transform: rotate(180deg);
 }
 
+.vl {
+    border-left: 1px solid rgb(155, 152, 152);
+    height: 22px;
+    margin-top: 22px;
+}
+
+.sign {
+    background-color: white;
+    color: #116DFF;
+    border: 1px solid #116DFF;
+    border-radius: 22px;
+    margin: 12px 12px;
+    padding: 2px 40px;
+}
+
+.heading {
+    background-color: #ebeef0;
+    padding-bottom: 78px;
+}
+
 .h1 {
     text-align: center;
-    padding-top: 25px;
-    font-weight: 600;
-    font-size: 96px;
+    padding-top: 52px;
+    font-weight: 550;
+    font-size: 99px;
     line-height: 1.1em;
     color: black;
     margin-bottom: 0%;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h2 {
     text-align: center;
-    font-weight: 600;
+    font-weight: 550;
     font-size: 96px;
     line-height: 1.1em;
     color: black;
     margin-top: 0%;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .p1 {
@@ -72,6 +91,7 @@ body {
     color: #000000;
     padding-top: 35px;
     font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .p2 {
@@ -82,14 +102,21 @@ body {
     padding-top: 10px;
     font-weight: 400;
     margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back {
+    padding-top: 28px;
+    padding-bottom: 8px;
 }
 
 .get {
     background-color: #116DFF;
     color: white;
-    border-radius: 20px;
-    font-size: 20pt !important;
-    font-weight: 400;
+    border-radius: 36px;
+    font-size: 16pt !important;
+    font-weight: 500;
+    padding: 14px 38px;
 }
 
 .badg {
@@ -97,8 +124,8 @@ body {
     color: white;
     border-radius: 20px;
     font-size: 30pt;
-    font-weight: 400;
-    padding: 10px;
+    font-weight: 500;
+    padding: 2px;
 }
 
 .line1 {
@@ -108,22 +135,45 @@ body {
     font-weight: 400;
 }
 
+.blue-container {
+    background-color: rgb(20, 52, 142);
+    min-height: 418px;
+}
+
 .med-grid-1 {
     color: white;
     font-size: 48px;
     font-weight: 600;
     text-align: center;
-    padding: 20px 10px 40px 10px;
+    display: block;
+    padding: 35px 10px 60px 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .med-grid-2 {
-    font-weight: 400;
+    font-weight: 300;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    display: block;
     font-size: 20px !important;
-    padding: 20px 10px 40px 10px;
+    padding: 28px 10px 40px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.get-started {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 2px solid white;
+    width: 125px;
 }
 
 .green-grid {
-    background-color: rgb(3, 89, 70);
+    background-color: rgb(3 89 70);
+    display: block;
+    min-height: 980px;
 }
 
 .hedder-1 {
@@ -136,6 +186,12 @@ body {
     color: black;
     font-weight: 400;
     line-height: 1.4em;
+}
+
+.med-img {
+    padding-top: 270px;
+    background-color: #ebeef0;
+    min-height: 980px;
 }
 
 @media only screen and (max-width: 600px) {
