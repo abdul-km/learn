@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* navbar starts here */
+
 .uk-navbar-item,
 .uk-navbar-nav>li>a,
 .uk-navbar-toggle {
@@ -56,9 +59,21 @@ body {
     padding: 2px 40px;
 }
 
+
+/* navbar ends here */
+
 .heading {
     background-color: #ebeef0;
     padding-bottom: 78px;
+}
+
+.uk-nav>li>a>span {
+    text-align: left;
+}
+
+.menu-grid {
+    background-color: red;
+    width: 100%;
 }
 
 .h1 {
