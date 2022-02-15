@@ -1,7 +1,7 @@
 body {
     background-color: white;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -26,6 +26,27 @@ body {
     color: black;
     font-size: 11pt;
     padding: 0px 18px;
+}
+
+.items-main {
+    min-height: 446px;
+}
+
+.nav-item-h {
+    font-size: 18px;
+    display: block !important;
+    font-weight: 600;
+    color: black;
+    padding: 10px;
+    text-overflow: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item-p {
+    font: 10px;
+    display: block !important;
+    color: black;
+    padding: 10px;
 }
 
 .feature {
@@ -179,12 +200,11 @@ body {
 }
 
 .get-started {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 24px;
     text-align: left;
     border-bottom: 2px solid white;
-    width: 125px;
-    text-transform: capitalize;
+    width: 135px;
 }
 
 .green-grid {
@@ -194,15 +214,47 @@ body {
 }
 
 .hedder-1 {
-    color: black;
     font-weight: 700;
-    line-height: 1.1em
+    line-height: 1.1em;
+    padding: 95px 25px 0px 20px;
+    text-align: start;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hedder-2 {
-    color: black;
-    font-weight: 400;
-    line-height: 1.4em;
+    color: white;
+    font-weight: 200 !important;
+    font-size: 20px !important;
+    text-align: left;
+    display: block;
+    padding: 0px 15px 80px 20px;
+}
+
+.green-card {
+    background-color: none;
+    border-top: 1px solid white;
+}
+
+.green-card-h {
+    font-size: 22px;
+    display: block;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.green-card-p {
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    text-align: left;
+    display: block;
+    line-height: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .med-img {
