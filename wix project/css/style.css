@@ -257,10 +257,74 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.Start-Now {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 2px solid white;
+    width: 112px;
+    display: block;
+    padding-left: 0%;
+    margin-left: 16px;
+}
+
 .med-img {
     padding-top: 270px;
     background-color: #ebeef0;
     min-height: 980px;
+}
+
+.t-colore {
+    background: rgb(227, 231, 238);
+}
+
+.about-h {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 550;
+    display: block;
+    color: #000000;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    min-height: 73px;
+    margin-top: 142px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-p {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.4em;
+    min-height: 33px;
+    margin-top: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-t {
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    margin-top: 28px;
+    margin-left: 510px;
+    margin-bottom: 330px;
+    margin-bottom: 80px;
+    font-weight: 600;
+    width: 304px;
+    border-bottom: 2px solid black;
+}
+
+.t-s {
+    margin-bottom: ;
+}
+
+.t-p {
+    color: black;
+}
+
+.e-img {
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {
